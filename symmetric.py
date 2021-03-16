@@ -1,0 +1,7 @@
+o=int(input())
+l=set(list(map(int,input().split())))
+i=int(input())
+m=set(list(map(int,input().split())))
+k=list(l.symmetric_difference(m))
+k.sort()
+print(k)
